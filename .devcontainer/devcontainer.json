@@ -1,0 +1,17 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/jekyll
+{
+  "name": "EndOfLife.date",
+  "postCreateCommand": "bundle install && bundle exec jekyll serve",
+
+  // List of ports inside the container available locally.
+  //"forwardPorts": ["localhost:4000"],
+
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "CONTRIBUTING.md"
+      ]
+    }
+  }
+}

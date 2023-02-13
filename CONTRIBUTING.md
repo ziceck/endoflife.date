@@ -343,6 +343,10 @@ docker run --rm \
 # CTRL+C to exit and kill the instance
 ```
 
+### Contribute using GitHub Codespaces
+
+Read [Quickstart for GitHub Codespaces](https://docs.github.com/codespaces/getting-started/quickstart).
+
 ## 📑 Suggested Reading
 
 We have the following documents which should help you get familiar with the project and the codebase. You don't need to read all of these, and we've linked these docs above in cases where you must read any of them.
