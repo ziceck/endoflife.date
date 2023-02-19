@@ -1,0 +1,12 @@
+# https://www.gitpod.io/docs/config-gitpod-file
+
+tasks:
+  - name: 'Open contribution guide'
+    command: 'gp open CONTRIBUTING.md'
+  - name: 'Setup & start preview'
+    init: 'bundle install'
+    command: 'bundle exec jekyll serve --incremental'
+
+vscode:
+  extensions:
+    - 'sissel.shopify-liquid'
