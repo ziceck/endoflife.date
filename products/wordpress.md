@@ -6,10 +6,9 @@ permalink: /wordpress
 versionCommand: wp core version
 releasePolicyLink: https://codex.wordpress.org/Supported_Versions
 changelogTemplate: "https://wordpress.org/documentation/wordpress-version/version-{{'__LATEST__'|drop_zero_patch|replace:'.','-'}}/"
-activeSupportColumn: true
 releaseColumn: true
 releaseDateColumn: true
-discontinuedColumn: false
+eolColumn: Support
 
 # This regex drops '.0' from versions because x.y.0 releases are always referred as x.y.
 # The patch part is like that to handle properly tiny versions, such as 1.5.1.3, are handled properly.
@@ -28,228 +27,209 @@ identifiers:
 -   purl: pkg:docker/bitnami/wordpress-intel
 -   purl: pkg:docker/rapidfort/wordpress
 
+# EOL(x) = releaseDate(X+1)
 releases:
 -   releaseCycle: "6.2"
-    eol: false
-    support: true
     releaseDate: 2023-03-29
+    eol: false
     latest: "6.2.1"
     latestReleaseDate: 2023-05-16
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0, 8.1, 8.2"
 
 -   releaseCycle: "6.1"
-    eol: false
-    support: 2023-03-29
     releaseDate: 2022-11-02
+    eol: 2023-03-29
     latest: "6.1.2"
     latestReleaseDate: 2023-05-16
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0, 8.1, 8.2"
 
 -   releaseCycle: "6.0"
-    eol: false
-    support: 2022-11-01
     releaseDate: 2022-05-24
+    eol: 2022-11-01
     latest: "6.0.4"
     latestReleaseDate: 2023-05-16
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0, 8.1"
 
 -   releaseCycle: "5.9"
-    eol: false
-    support: 2022-05-24
     releaseDate: 2022-01-25
-    latestReleaseDate: 2023-05-16
+    eol: 2022-05-24
     latest: "5.9.6"
+    latestReleaseDate: 2023-05-16
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0, 8.1"
 
 -   releaseCycle: "5.8"
-    eol: false
-    support: 2022-01-25
     releaseDate: 2021-07-20
-    latestReleaseDate: 2023-05-16
+    eol: 2022-01-25
     latest: "5.8.7"
+    latestReleaseDate: 2023-05-16
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0"
 
 -   releaseCycle: "5.7"
-    eol: false
-    support: 2021-07-20
     releaseDate: 2021-03-09
-    latestReleaseDate: 2023-05-16
+    eol: 2021-07-20
     latest: "5.7.9"
+    latestReleaseDate: 2023-05-16
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0"
 
 -   releaseCycle: "5.6"
-    eol: false
-    support: 2021-03-09
     releaseDate: 2020-12-08
-    latestReleaseDate: 2023-05-16
+    eol: 2021-03-09
     latest: "5.6.11"
+    latestReleaseDate: 2023-05-16
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0"
 
 -   releaseCycle: "5.5"
-    eol: false
-    support: 2020-12-08
     releaseDate: 2020-08-11
-    latestReleaseDate: 2023-05-16
+    eol: 2020-12-08
     latest: "5.5.12"
+    latestReleaseDate: 2023-05-16
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4"
 
 -   releaseCycle: "5.4"
-    eol: false
-    support: 2020-08-11
     releaseDate: 2020-03-31
-    latestReleaseDate: 2023-05-16
+    eol: 2020-08-11
     latest: "5.4.13"
+    latestReleaseDate: 2023-05-16
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4"
 
 -   releaseCycle: "5.3"
-    eol: false
-    support: 2020-03-31
     releaseDate: 2019-11-12
-    latestReleaseDate: 2023-05-16
+    eol: 2020-03-31
     latest: "5.3.15"
+    latestReleaseDate: 2023-05-16
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4"
 
 -   releaseCycle: "5.2"
-    eol: false
-    support: 2019-11-12
     releaseDate: 2019-05-07
-    latestReleaseDate: 2023-05-16
+    eol: 2019-11-12
     latest: "5.2.18"
+    latestReleaseDate: 2023-05-16
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3"
 
 -   releaseCycle: "5.1"
-    eol: false
-    support: 2019-05-07
     releaseDate: 2019-02-21
-    latestReleaseDate: 2023-05-16
+    eol: 2019-05-07
     latest: "5.1.16"
+    latestReleaseDate: 2023-05-16
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5, 5.6, 7.0, 7.1, 7.2, 7.3"
 
 -   releaseCycle: "5.0"
-    eol: false
-    support: 2019-02-21
     releaseDate: 2018-12-06
-    latestReleaseDate: 2023-05-16
+    eol: 2019-02-21
     latest: "5.0.19"
+    latestReleaseDate: 2023-05-16
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5, 5.6, 7.0, 7.1, 7.2, 7.3"
 
 -   releaseCycle: "4.9"
-    eol: false
-    support: 2018-12-06
     releaseDate: 2017-11-16
-    latestReleaseDate: 2023-05-16
+    eol: 2018-12-06
     latest: "4.9.23"
+    latestReleaseDate: 2023-05-16
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5, 5.6, 7.0, 7.1, 7.2"
 
 -   releaseCycle: "4.8"
-    eol: false
-    support: 2017-11-16
     releaseDate: 2017-06-08
-    latestReleaseDate: 2023-05-16
+    eol: 2017-11-16
     latest: "4.8.22"
+    latestReleaseDate: 2023-05-16
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5, 5.6, 7.0, 7.1"
 
 -   releaseCycle: "4.7"
-    eol: false
-    support: 2017-06-08
     releaseDate: 2016-12-06
-    latestReleaseDate: 2023-05-16
+    eol: 2017-06-08
     latest: "4.7.26"
+    latestReleaseDate: 2023-05-16
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5, 5.6, 7.0, 7.1"
 
 -   releaseCycle: "4.6"
-    eol: false
-    support: 2016-12-06
     releaseDate: 2016-08-16
-    latestReleaseDate: 2023-05-16
+    eol: 2016-12-06
     latest: "4.6.26"
+    latestReleaseDate: 2023-05-16
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5, 5.6, 7.0"
 
 -   releaseCycle: "4.5"
-    eol: false
-    support: 2016-08-16
     releaseDate: 2016-04-12
-    latestReleaseDate: 2023-05-16
+    eol: 2016-08-16
     latest: "4.5.29"
+    latestReleaseDate: 2023-05-16
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5, 5.6, 7.0"
 
 -   releaseCycle: "4.4"
-    eol: false
-    support: 2016-04-12
     releaseDate: 2015-12-09
-    latestReleaseDate: 2023-05-16
+    eol: 2016-04-12
     latest: "4.4.30"
+    latestReleaseDate: 2023-05-16
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5, 5.6, 7.0"
 
 -   releaseCycle: "4.3"
-    eol: false
-    support: 2015-12-08
     releaseDate: 2015-08-18
-    latestReleaseDate: 2023-05-16
+    eol: 2015-12-08
     latest: "4.3.31"
+    latestReleaseDate: 2023-05-16
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5, 5.6"
 
 -   releaseCycle: "4.2"
-    eol: false
-    support: 2015-08-18
     releaseDate: 2015-04-23
-    latestReleaseDate: 2023-05-16
+    eol: 2015-08-18
     latest: "4.2.35"
+    latestReleaseDate: 2023-05-16
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5, 5.6"
 
 -   releaseCycle: "4.1"
-    eol: false
-    support: 2015-04-23
     releaseDate: 2014-12-18
-    latestReleaseDate: 2023-05-16
+    eol: 2015-04-23
     latest: "4.1.38"
+    latestReleaseDate: 2023-05-16
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5, 5.6"
 
 -   releaseCycle: "4.0"
-    eol: 2022-12-01
-    support: 2014-12-18
     releaseDate: 2014-09-04
-    latestReleaseDate: 2022-11-30
+    eol: 2022-12-01
     latest: "4.0.38"
+    latestReleaseDate: 2022-11-30
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5"
 
 -   releaseCycle: "3.9"
-    eol: 2022-12-01
-    support: 2014-09-04
     releaseDate: 2014-04-16
-    latestReleaseDate: 2022-11-30
+    eol: 2022-12-01
     latest: "3.9.40"
+    latestReleaseDate: 2022-11-30
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5"
 
 -   releaseCycle: "3.8"
-    eol: 2022-12-01
-    support: 2014-04-16
     releaseDate: 2013-12-12
-    latestReleaseDate: 2022-11-30
+    eol: 2022-12-01
     latest: "3.8.41"
+    latestReleaseDate: 2022-11-30
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5"
 
 -   releaseCycle: "3.7"
-    eol: 2022-12-01
-    support: 2013-12-12
     releaseDate: 2013-10-24
-    latestReleaseDate: 2022-11-30
+    eol: 2022-12-01
     latest: "3.7.41"
+    latestReleaseDate: 2022-11-30
     supportedPHPVersions: "5.2, 5.3, 5.4, 5.5"
 
 -   releaseCycle: "3.6"
-    eol: 2013-10-24
-    support: 2013-10-24
     releaseDate: 2013-08-01
+    eol: 2013-10-24
     latestReleaseDate: 2013-09-11
     latest: "3.6.1"
 
 ---
 
-> [WordPress](https://wordpress.org/) is a free and open-source content management system written in PHP.
+> [WordPress](https://wordpress.org/) is a free and open-source content management system (CMS)
+> written in PHP and paired with a MySQL or MariaDB database. Features include a plugin architecture
+> and a template system, referred to within WordPress as "Themes".
 
-Only the latest major release is supported. Security patches are backported when possible, but this
-is not guaranteed. [Version 3.7 to 4.0 won't get security updates after Dec 1, 2022](https://wordpress.org/news/2022/09/dropping-security-updates-for-wordpress-versions-3-7-through-4-0/).
+The only officially supported and actively maintained version of WordPress is the last major release.
+
+Security updates will be backported to older releases when possible, but there are no guarantee and
+no timeframe for older releases. There are no fixed period of support nor Long Term Support (LTS)
+version. None of these are safe to use, except the latest series, which is actively maintained.
+Moreover, versions 3.7 to 4.0 [are guaranteed to not get security updates after
+Dec 1, 2022](https://wordpress.org/news/2022/09/dropping-security-updates-for-wordpress-versions-3-7-through-4-0/).
 
 ## [PHP Support](https://make.wordpress.org/core/handbook/references/php-compatibility-and-wordpress-versions/)
 
