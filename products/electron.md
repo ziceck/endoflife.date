@@ -1,6 +1,7 @@
 ---
 title: Electron
 category: framework
+tags: javascript-runtime
 iconSlug: electron
 permalink: /electron
 versionCommand: npm show electron version
@@ -16,30 +17,38 @@ auto:
 -   npm: electron
 
 # The EOL dates will need to be corrected once a new release comes out.
-# v24 (releaseDate) = v21 (eol)
-# v25 (releaseDate) = v22 (eol)
 # v26 (releaseDate) = v23 (eol)
+# v27 (releaseDate) = v24 (eol)
+# v28 (releaseDate) = v25 (eol)
 # and so on...
 releases:
+
+-   releaseCycle: "25"
+    # 2023-05-30 + 6 months
+    eol: 2023-11-30
+    releaseDate: 2023-05-29
+    latestReleaseDate: 2023-06-22
+    latest: "25.2.0"
+
 -   releaseCycle: "24"
     # 2023-04-05 + 6 months
     eol: 2023-10-05
     releaseDate: 2023-04-04
-    latestReleaseDate: 2023-05-17
-    latest: "24.3.1"
+    latestReleaseDate: 2023-06-21
+    latest: "24.6.0"
 
 -   releaseCycle: "23"
     # 2023-02-06 + 6 months
     eol: 2023-08-06
     releaseDate: 2023-02-07
-    latestReleaseDate: 2023-05-17
-    latest: "23.3.3"
+    latestReleaseDate: 2023-06-22
+    latest: "23.3.8"
 
 -   releaseCycle: "22"
-    eol: 2023-07-07
+    eol: 2023-05-29
     releaseDate: 2022-11-30
-    latestReleaseDate: 2023-05-17
-    latest: "22.3.10"
+    latestReleaseDate: 2023-06-22
+    latest: "22.3.14"
 
 -   releaseCycle: "21"
     eol: 2023-04-04

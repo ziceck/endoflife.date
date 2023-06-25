@@ -1,6 +1,7 @@
 ---
 title: Bellsoft Liberica JDK
 category: lang
+tags: bellsoft java-distribution
 iconSlug: openjdk
 permalink: /bellsoft-liberica
 alternate_urls:
@@ -85,8 +86,8 @@ releases:
     releaseDate: 2020-09-17
     eol: 2021-03-16
     extendedSupport: false
-    latest: "15.0.2+8"
-    latestReleaseDate: 2021-01-19
+    latest: "15.0.2+10"
+    latestReleaseDate: 2021-01-22
 
 -   releaseCycle: "14"
     releaseDate: 2020-03-19
@@ -130,7 +131,7 @@ releases:
 
 -   releaseCycle: "8"
     lts: true
-    releaseDate: 2019-01-30
+    releaseDate: 2018-11-01
     eol: 2026-11-30
     extendedSupport: 2031-03-31
     latest: "8u372+7"
@@ -142,7 +143,7 @@ releases:
     eol: 2022-07-31
     extendedSupport: 2026-03-31
     latest: "unknown"
-    link: null
+    link:
 
 -   releaseCycle: "6"
     lts: true
@@ -150,7 +151,7 @@ releases:
     eol: 2018-12-31
     extendedSupport: 2026-03-31
     latest: "unknown"
-    link: null
+    link:
 
 ---
 

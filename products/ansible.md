@@ -1,12 +1,15 @@
 ---
 title: Ansible
 category: app
+tags: python-runtime red-hat
 iconSlug: ansible
 permalink: /ansible
 # The following command works from Ansible 6.0.0 on:
 versionCommand: ansible-community --version
-releasePolicyLink: https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
-changelogTemplate: https://github.com/ansible-community/ansible-build-data/blob/main/__RELEASE_CYCLE__/CHANGELOG-v__RELEASE_CYCLE__.rst
+releasePolicyLink: 
+  https://docs.ansible.com/ansible/devel/reference_appendices/release_and_maintenance.html
+changelogTemplate: 
+  https://github.com/ansible-community/ansible-build-data/blob/main/__RELEASE_CYCLE__/CHANGELOG-v__RELEASE_CYCLE__.rst
 releaseDateColumn: true
 activeSupportColumn: false
 eolColumn: Supported
@@ -19,15 +22,21 @@ auto:
 -   pypi: ansible
 
 releases:
+-   releaseCycle: "8"
+    releaseDate: 2023-05-30
+    eol: false
+    latest: "8.1.0"
+    latestReleaseDate: 2023-06-22
+
 -   releaseCycle: "7"
     releaseDate: 2022-11-22
-    eol: false
-    latest: "7.5.0"
-    latestReleaseDate: 2023-04-26
+    eol: 2023-06-22
+    latest: "7.7.0"
+    latestReleaseDate: 2023-06-22
 
 -   releaseCycle: "6"
     releaseDate: 2022-06-21
-    eol: 2022-12-22 # will have to be updated with 6.7.0 release date
+    eol: 2022-12-06
     latest: "6.7.0"
     latestReleaseDate: 2022-12-06
 
@@ -70,7 +79,7 @@ releases:
 > easy-to-consume PyPI package.
 
 The `ansible` community package typically gets 2 major releases every year. A new minor version is
-released every 3 weeks. Maintenance fixes are guaranteed for only the latest major release.
+released every 4 weeks. Maintenance fixes are guaranteed for only the latest major release.
 
 See the [Ansible Roadmap](https://docs.ansible.com/ansible/devel/roadmap/ansible_roadmap_index.html)
 for upcoming release details.
@@ -79,6 +88,7 @@ for upcoming release details.
 
 | Ansible Version | Minimum Python Version (controller) | Minimum Python Version (modules) |
 |-----------------|-------------------------------------|----------------------------------|
+| 8               | 3.9                                 | 2.7 or 3.5                       |
 | 7               | 3.9                                 | 2.7 or 3.5                       |
 | 5               | 3.8                                 | 2.7 or 3.5                       |
 | 2.9             | 2.7 or 3.5                          | 2.6 or 3.5                       |

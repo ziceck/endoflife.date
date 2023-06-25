@@ -1,6 +1,7 @@
 ---
 title: openSUSE
 category: os
+tags: linux-distribution
 iconSlug: opensuse
 permalink: /opensuse
 alternate_urls:
@@ -22,9 +23,13 @@ identifiers:
 -   cpe: cpe:2.3:o:opensuse:leap
 
 releases:
+-   releaseCycle: "15.5"
+    releaseDate: 2023-06-07
+    eol: 2024-12-31
+
 -   releaseCycle: "15.4"
     releaseDate: 2022-06-09
-    eol: 2023-12-01
+    eol: 2023-12-07
 
 -   releaseCycle: "15.3"
     releaseDate: 2021-06-02

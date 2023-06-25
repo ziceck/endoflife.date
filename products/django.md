@@ -1,6 +1,7 @@
 ---
 title: Django
 category: framework
+tags: python-runtime
 iconSlug: django
 permalink: /django
 versionCommand: python -c "import django; print(django.get_version())"
@@ -22,9 +23,9 @@ releases:
 -   releaseCycle: "4.2"
     support: 2023-12-01
     eol: 2026-04-01
-    latest: "4.2.1"
+    latest: "4.2.2"
     lts: true
-    latestReleaseDate: 2023-05-03
+    latestReleaseDate: 2023-06-05
     releaseDate: 2023-04-03
 
 -   releaseCycle: "4.1"
@@ -100,14 +101,14 @@ releases:
 
 | Django Release | Supported Python Versions |
 |----------------|---------------------------|
-| 4.0            | 3.8 ≥ 3.10                |
+| 4.2            | 3.8 ≥ 3.11                |
 | 3.2            | 3.6 ≥ 3.10                |
 | 2.2            | 3.5 ≥ 3.9                 |
 | 2.0            | 3.4 ≥ 3.7                 |
 | 1.11.x         | 2.7 , 3.4 ≥ 3.7           |
 
 Not all releases in a series will support all Python versions, the matrix above is for the latest
-patch release. [For more up-to-date info](https://docs.djangoproject.com/en/4.0/faq/install/#what-python-version-can-i-use-with-django).
+patch release. [For more up-to-date info](https://docs.djangoproject.com/en/4.2/faq/install/#what-python-version-can-i-use-with-django).
 
 **Feature releases** (A.B, A.B+1, etc.) will happen roughly every eight months. These releases will
 contain new features, improvements to existing features, and such. These can include documented

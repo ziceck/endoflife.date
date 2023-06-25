@@ -1,6 +1,7 @@
 ---
 title: Firefox
 category: app
+tags: mozilla web-browser
 iconSlug: firefoxbrowser
 permalink: /firefox
 releasePolicyLink: https://www.mozilla.org/firefox/
@@ -14,11 +15,17 @@ auto:
 
 # For non-LTS versions, eol(x) = releaseDate(x+1)
 releases:
+-   releaseCycle: "114"
+    releaseDate: 2023-06-06
+    eol: false
+    latest: "114.0.2"
+    latestReleaseDate: 2023-06-20
+
 -   releaseCycle: "113"
     releaseDate: 2023-05-09
-    eol: false
-    latest: "113.0.1"
-    latestReleaseDate: 2023-05-12
+    eol: 2023-06-06
+    latest: "113.0.2"
+    latestReleaseDate: 2023-05-23
 
 -   releaseCycle: "112"
     releaseDate: 2023-04-11
@@ -84,8 +91,8 @@ releases:
     lts: true
     releaseDate: 2022-06-28
     eol: false
-    latest: "102.11.0"
-    latestReleaseDate: 2023-05-09
+    latest: "102.12.0"
+    latestReleaseDate: 2023-06-06
 
 -   releaseCycle: "91"
     lts: true

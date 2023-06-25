@@ -1,6 +1,7 @@
 ---
 title: Node.js
 category: framework
+tags: javascript-runtime
 iconSlug: nodedotjs
 permalink: /nodejs
 alternate_urls:
@@ -9,7 +10,8 @@ alternate_urls:
 versionCommand: node --version
 releasePolicyLink: https://nodejs.org/about/releases/
 releaseImage: https://raw.githubusercontent.com/nodejs/Release/main/schedule.svg?sanitize=true
-changelogTemplate: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__
+changelogTemplate: 
+  https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V__RELEASE_CYCLE__.md#__LATEST__
 activeSupportColumn: true
 releaseDateColumn: true
 
@@ -30,8 +32,8 @@ releases:
     lts: 2023-10-24
     support: 2024-10-22
     eol: 2026-04-30
-    latest: "20.2.0"
-    latestReleaseDate: 2023-05-16
+    latest: "20.3.1"
+    latestReleaseDate: 2023-06-20
 
 -   releaseCycle: "19"
     releaseDate: 2022-10-18
@@ -45,8 +47,8 @@ releases:
     lts: 2022-10-25
     support: 2023-10-18
     eol: 2025-04-30
-    latest: "18.16.0"
-    latestReleaseDate: 2023-04-12
+    latest: "18.16.1"
+    latestReleaseDate: 2023-06-20
 
 -   releaseCycle: "17"
     releaseDate: 2021-10-19
@@ -60,8 +62,8 @@ releases:
     lts: 2021-10-26
     support: 2022-10-18
     eol: 2023-09-11
-    latest: "16.20.0"
-    latestReleaseDate: 2023-03-29
+    latest: "16.20.1"
+    latestReleaseDate: 2023-06-20
 
 -   releaseCycle: "15"
     releaseDate: 2020-10-20
@@ -157,7 +159,8 @@ releases:
     releaseDate: 2015-08-04
     support: false
     eol: true
-    link: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
+    link: 
+      https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
     latest: "3.3.1"
     latestReleaseDate: 2015-09-15
 
@@ -165,7 +168,8 @@ releases:
     releaseDate: 2015-05-04
     support: false
     eol: true
-    link: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
+    link: 
+      https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
     latest: "2.5.0"
     latestReleaseDate: 2015-07-28
 
@@ -173,7 +177,8 @@ releases:
     releaseDate: 2015-01-20
     support: false
     eol: true
-    link: https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
+    link: 
+      https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_IOJS.md#__LATEST__
     latest: "1.8.4"
     latestReleaseDate: 2015-07-09
 

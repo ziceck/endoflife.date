@@ -2,6 +2,7 @@
 permalink: /oraclelinux
 title: Oracle Linux
 category: os
+tags: linux-distribution oracle
 versionCommand: lsb_release --release
 releasePolicyLink: https://www.oracle.com/a/ocom/docs/elsp-lifetime-069338.pdf
 releaseDateColumn: true
@@ -26,15 +27,15 @@ releases:
     releaseDate: 2022-07-06
     eol: 2032-06-30
     extendedSupport: 2034-06-30
-    latest: "9.1"
-    latestReleaseDate: 2022-11-30
+    latest: "9.2"
+    latestReleaseDate: 2023-05-26
 
 -   releaseCycle: "8"
     releaseDate: 2019-07-19
     eol: 2029-07-01
     extendedSupport: 2031-07-01
-    latest: "8.7"
-    latestReleaseDate: 2022-11-21
+    latest: "8.8"
+    latestReleaseDate: 2023-05-26
 
 -   releaseCycle: "7"
     releaseDate: 2014-07-23

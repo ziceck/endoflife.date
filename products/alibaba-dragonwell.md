@@ -1,6 +1,7 @@
 ---
 title: Alibaba Dragonwell
 category: lang
+tags: alibaba java-distribution
 iconSlug: openjdk
 permalink: /alibaba-dragonwell
 
@@ -66,7 +67,7 @@ releases:
     releaseDate: 2021-10-18
     eol: 2029-09-30
     latest: "17.0.7.0.7+7"
-    latestReleaseDate: 2023-05-11
+    latestReleaseDate: 2023-05-29
 
 # First official release is 11.0.7.2.
 -   releaseCycle: "11"

@@ -1,6 +1,7 @@
 ---
 title: Scala
 category: lang
+tags: java-runtime
 iconSlug: scala
 permalink: /scala
 alternate_urls:
@@ -19,11 +20,19 @@ auto:
     # Scala >= 3
 -   git: https://github.com/lampepfl/dotty.git
 
+# For 3.x : support(x) = eol(x) = releaseDate(x+1)
 releases:
--   releaseCycle: "3.2"
-    releaseDate: 2022-08-31
+-   releaseCycle: "3.3"
+    releaseDate: 2023-05-23
     support: true
     eol: false
+    latest: "3.3.2"
+    latestReleaseDate: 2023-05-23
+
+-   releaseCycle: "3.2"
+    releaseDate: 2022-08-31
+    support: 2023-05-23
+    eol: 2023-05-23
     latest: "3.2.2"
     latestReleaseDate: 2023-01-11
 
@@ -45,16 +54,16 @@ releases:
     releaseDate: 2019-06-07
     support: true
     eol: false
-    latest: "2.13.10"
-    latestReleaseDate: 2022-10-08
+    latest: "2.13.11"
+    latestReleaseDate: 2023-06-01
     link: https://github.com/scala/scala/releases/tag/v__LATEST__
 
 -   releaseCycle: "2.12"
     releaseDate: 2016-10-28
     support: 2019-06-07
     eol: false
-    latest: "2.12.17"
-    latestReleaseDate: 2022-09-14
+    latest: "2.12.18"
+    latestReleaseDate: 2023-05-31
     link: https://github.com/scala/scala/releases/tag/v__LATEST__
 
 -   releaseCycle: "2.11"
@@ -94,17 +103,18 @@ and experimental features) and _Scala LTS_ (only bug fixes, non-language changes
 quality-of-life enhancements). LTS releases will be released every two years and each LTS
 release will be supported for at least three years.
 
-## Version compatibility table
+## [JDK Compatibility](https://docs.scala-lang.org/overviews/jdk-compatibility/overview.html)
 
 Scala’s primary platform is the Java Virtual Machine (JVM).
 
 | JDK version | Minimum Scala versions         |
 |-------------|--------------------------------|
+| 21 (ea)     | 3.3.1, 2.13.11, 2.12.18        |
+| 20          | 3.3.0, 2.13.11, 2.12.18        |
 | 19          | 3.2.0, 2.13.9, 2.12.16         |
 | 18          | 3.1.3, 2.13.7, 2.12.15         |
 | 17 (LTS)    | 3.0.0, 2.13.6, 2.12.15         |
 | 11 (LTS)    | 3.0.0, 2.13.0, 2.12.4, 2.11.12 |
 | 8 (LTS)     | 3.0.0, 2.13.0, 2.12.0, 2.11.0  |
 
-Using the latest patch version is always recommended. Details are documented on the
-[Scala JDK Compatibility page](https://docs.scala-lang.org/overviews/jdk-compatibility/overview.html).
+Using the latest patch version is always recommended.

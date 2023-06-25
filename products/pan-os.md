@@ -1,6 +1,7 @@
 ---
 title: Palo Alto Networks PAN-OS
 category: os
+tags: palo-alto-networks
 permalink: /panos
 versionCommand: show system info | match sw-version
 releasePolicyLink: https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary
@@ -14,9 +15,9 @@ releases:
 -   releaseCycle: "11.0"
     eol: 2024-11-17
     releaseDate: 2022-11-17
-    latest: "11.0.1"
-    latestReleaseDate: 2023-03-29
-    link: https://docs.paloaltonetworks.com/pan-os/11-0/pan-os-release-notes/pan-os-11-0-1-known-and-addressed-issues/pan-os-11-0-1-addressed-issues
+    latest: "11.0.1-h2"
+    latestReleaseDate: 2023-05-30
+    link: https://docs.paloaltonetworks.com/pan-os/11-0/pan-os-release-notes/pan-os-11-0-1-known-and-addressed-issues/pan-os-11-0-1-h2-addressed-issues
 
 -   releaseCycle: "10.2"
     eol: 2025-08-27

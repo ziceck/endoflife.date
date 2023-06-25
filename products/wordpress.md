@@ -1,6 +1,7 @@
 ---
 title: WordPress
 category: server-app
+tags: php-runtime
 iconSlug: wordpress
 permalink: /wordpress
 versionCommand: wp core version
@@ -32,29 +33,29 @@ releases:
 -   releaseCycle: "6.2"
     releaseDate: 2023-03-29
     eol: false
-    latest: "6.2.1"
-    latestReleaseDate: 2023-05-16
+    latest: "6.2.2"
+    latestReleaseDate: 2023-05-20
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0, 8.1, 8.2"
 
 -   releaseCycle: "6.1"
     releaseDate: 2022-11-02
     eol: 2023-03-29
-    latest: "6.1.2"
-    latestReleaseDate: 2023-05-16
+    latest: "6.1.3"
+    latestReleaseDate: 2023-05-20
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0, 8.1, 8.2"
 
 -   releaseCycle: "6.0"
     releaseDate: 2022-05-24
     eol: 2022-11-01
-    latest: "6.0.4"
-    latestReleaseDate: 2023-05-16
+    latest: "6.0.5"
+    latestReleaseDate: 2023-05-20
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0, 8.1"
 
 -   releaseCycle: "5.9"
     releaseDate: 2022-01-25
     eol: 2022-05-24
-    latest: "5.9.6"
-    latestReleaseDate: 2023-05-16
+    latestReleaseDate: 2023-05-20
+    latest: "5.9.7"
     supportedPHPVersions: "5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0, 8.1"
 
 -   releaseCycle: "5.8"
