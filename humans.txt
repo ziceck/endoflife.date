@@ -2,7 +2,7 @@
 
 Team: https://github.com/orgs/endoflife-date/people
 Contributors: https://github.com/endoflife-date/endoflife.date/graphs/contributors
-
+ 
 /* SITE */
 Software: Jekyll, Netlify, GitHub, Ruby, GitHub Actions
 Components: Just the Docs Jekyll Theme, Stoplight Elements, Swagger UI, Simple Icons
